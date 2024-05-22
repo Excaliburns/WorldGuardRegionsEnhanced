@@ -1,0 +1,10 @@
+name: WorldGuardRegionsEnhanced
+version: '${version}'
+main: moe.krp.worldguardregionsenhanced.WorldGuardRegionsEnhanced
+api-version: '1.18'
+depend: [WorldGuard, WorldEdit]
+permissions:
+  worldguardregionsenhanced.*:
+    description: Grants access to every permission node
+    children:
+      worldguardregionsenhanced.bypass: true
